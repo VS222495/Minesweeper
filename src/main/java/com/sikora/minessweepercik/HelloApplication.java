@@ -61,7 +61,7 @@ public class HelloApplication extends Application {
         minesLabel.setFont(Font.font(16));
         flagsLabel.setFont(Font.font(16));
 
-        Button reset = new Button("Start New");
+        Button reset = new Button("Start New Game");
         reset.setFont(Font.font(20));
         reset.setOnAction(e -> restart());
 
